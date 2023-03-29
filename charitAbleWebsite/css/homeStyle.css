@@ -1,0 +1,153 @@
+body{
+    background-color: #EDEEF7;
+}
+
+
+
+
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+/* navbar */
+
+.logoImg {
+    height: 45px;
+    width: 60px;
+  }
+
+
+.firsthalf{
+    margin-top: 30px;
+}
+
+
+/* carousel */
+
+.impact_img_carousel{
+    border-style: solid;
+    border-radius: 10px;
+    height: 290px;
+}
+
+.imagesCarousel {
+    border-radius: 10px;
+    border-color: black;
+
+}
+
+.box-report {
+    background-color: #EDEEF7;
+}
+
+.c_img{
+    height: 288px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* impact */
+
+
+
+.insideImpact {
+    padding: 0;
+    border-style: solid;
+    height: 290px;
+    width: 99%;
+    float: right;
+    border-radius: 10px;
+}
+
+.inImp1 {
+    padding: 0px;
+    background-color: #c6c4ff;
+}
+
+.centered-box {
+
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border-style: solid;
+    width: 60%;
+    height: 150px;
+    margin-top: 70px;
+    margin-left: 20%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .insideImpact {
+        padding: 0;
+        border-style: solid;
+        height: 290px;
+        width: 100%;
+        float: right;
+        border-radius: 10px;
+    }
+}
+
+/* donate boxes */
+
+.boxes-donation {
+    margin-top: 80px;
+}
+
+.checkdonate {
+    color: white;
+    height: 175px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 99%;
+    float: right;
+    background-color: #7868E6;
+    padding: 4px;
+}
+
+.donate {
+    color: white;
+    height: 175px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 99%;
+    float: left;
+    background-color: #3c3567;
+    padding: 4px;
+}
+
+.checkBtn {
+    float: right;
+    margin-right: 20px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .checkdonate {
+        margin-top: 50px;
+    }
+
+    .donate {
+        margin-top: 50px;
+        width: 100%;
+        float: none;
+    }
+
+    .boxes-donation {
+        margin-top: 30px;
+        width: 100%;
+        float: none;
+    }
+}
+
+
+footer {
+    position: relative;
+    margin-top: auto;
+    bottom: -90px;
+    width: 100%;
+    height: 50px;
+}
+
