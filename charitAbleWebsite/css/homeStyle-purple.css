@@ -14,7 +14,9 @@ body{
     background-color: #e1e2f5;
 }
 
-
+.footer-para {
+    line-height: 1.2;
+}
 
 
 .row {
@@ -220,6 +222,7 @@ footer {
     height: 50px;
     color: whitesmoke;
     background-color: #3a3796;
+    padding-top: 5px;
 }
 
 
