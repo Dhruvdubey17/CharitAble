@@ -106,18 +106,51 @@
                     <div class="donate">
                       <h2 id="makeDonation-text">Make a donation!</h2>
                       <p class="">Help in fight against hunger by providing basic food necessities at a cost of only Rs. 2 per week.</p>
-                      <button type="button" class="checkBtn btn btn-primary" id = "donateBtn" data-bs-toggle="modal" data-bs-target="#thankYouModal" onclick="window.open('https://forms.gle/RuTysYVaxce5t1Pj7', '_blank')">Donate Now!</button>
+                      <button type="button" class="checkBtn btn btn-primary" id = "donateBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Donate Now!
+                      </button>
                   </div>
                 </div>
                 <div class="col col-12 col-sm-12 col-md-6 col-lg-6 mb-5">
                   <div class="checkdonate">
                     <h2 id="checkDonation-text">Check Donations</h2>
                     <p>CharitAble is committed to transparency and ensuring that every penny donated is used for its intended purpose.</p>
-                    <a href="https://docs.google.com/spreadsheets/d/1mVrCJi7x3nhEs5NLshAVTCf6w_dwaOQ6CIpqs5Gqlz4/edit?resourcekey#gid=944183163" target="_blank" class="checkBtn btn btn-secondary" id="checkDonationBtn">Check Donations</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1svulo5PTfOaZVXLHyk-S2E6NTrWYK8R_6QH8ogxXXZg/edit?resourcekey#gid=1283864019" target="_blank" class="checkBtn btn btn-secondary" id="checkDonationBtn">Check Donations</a>
                 </div>
     
                 </div>
             </div>
+        </div>
+
+        <!--  -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-10" id="exampleModalLabel">Donate!!!</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container rupee8container">
+                  <h3>Donate Rupees 8(for a month)</h3>
+                  <p>Your donation will be devided in <strong>4 parts</strong>  respectively for each week. <br>Note: Option available only in the first week of every month.
+                  </p>
+                  <button type="button" class="checkBtn btn btn-primary"  data-bs-toggle="modal" data-bs-target="#thankYouModal" onclick="window.open('https://forms.gle/Rg8sJzXPXf5JcPxy9', '_blank')">Donate Now!</button>
+                  <p class="correctBoxCss">...</p>
+                </div>
+                <div class="container rupee2container">
+                  <h3>Donate Rupees 2(every week)</h3>
+                  <p>This is the regular modal where you'll need to donate every week as usual.</p>
+                  <button type="button" class="checkBtn btn btn-primary"  data-bs-toggle="modal" data-bs-target="#thankYouModal" onclick="window.open('https://forms.gle/RuTysYVaxce5t1Pj7', '_blank')">Donate Now!</button>
+                  <p class="correctBoxCss">...</p>
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
 
         <footer class="mb-0 mt-1 text-center footer-para">

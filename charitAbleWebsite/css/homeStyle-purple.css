@@ -128,7 +128,6 @@ body{
 @media only screen and (max-width: 850px) {
     .insideImpact {
         padding: 0;
-        
         height: 290px;
         width: 100%;
         float: right;
@@ -225,4 +224,20 @@ footer {
     padding-top: 5px;
 }
 
+
+
+.rupee8container {
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border-style: solid;
+}
+
+.rupee2container {
+    margin-top: 10px;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    border-style: solid;
+}
 
