@@ -225,7 +225,29 @@ body{
     }
 }
 
-
+.rupee8container{
+    margin: 5px;
+}
+.rupee2container{
+    margin: 5px;
+}
+.correctBoxCss{
+    color: white;
+}
+.btn{
+    border-radius: 20px;
+}
+.modal-header{
+    background: #245953;
+}
+#exampleModalLabel{
+    color: white;
+}
+#celebrate-icon{
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
 footer {
     position: relative;
     margin-top: auto;
