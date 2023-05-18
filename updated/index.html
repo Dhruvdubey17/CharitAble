@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+    <link rel="stylesheet" href="css/homeStyle-green.css">
+    <title>charitAble</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="logoImg" src="images/Logo.png" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Impact">Impact</a> <!-- Added Impact option -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/charitAbleWebsite/aboutUs.html">About Us</a> <!-- Added About Us option -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container firsthalf">
+        <div class="row">
+            <div id="AboutUs" class="col col-12 col-md-4 col-sm-12 mt-5 impact_img_carousel">
+                <div id="carouselExampleCaptions" class="carousel slide imagesCarousel" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item">
+                        <img class="c_img" src="images/aboutUs-green.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                        </div>
+                      </div>
+                      <div class="carousel-item active">
+                        <img class="c_img" src="images/w1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Week 1</h5>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img class="c_img" src="images/w2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Week 2</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+              </div>
+              <div id="Impact" class="col col-12 col-md-8 p-0 col-sm-12 mt-5 impact">
+                <div class="insideImpact row">
+                    <div class="col col-6 col-sm-6 col-md-6 col-lg-6 inImp1" id="container1">
+                        <div>
+                            <div class="centered-box box-report">
+                                <p class="text-center donationReceived">Donation Recieved <br> (last week)</p>
+                                <h1 class="text-center" id="amountDonated">Rs. 400</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-6 col-sm-6 col-md-6 col-lg-6 inImp1" id="container2">
+                        <div>
+                            <div class="centered-box box-report">
+                                <p class="text-center meals">Meals donated <br> (till now)</p>
+                                <div class="text-center" id="mealsDonated">
+                                  <img src="assets/party.png" alt="" id="party-icon">
+                                  68
+                                  <img src="assets/confetti.png" alt="" id="confetti-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row boxes-donation">
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6">
+                    
+                    <div class="donate">
+                      <h2 id="makeDonation-text">Make a donation!</h2>
+                      <p class="">Help in fight against hunger by providing basic food necessities at a cost of only Rs. 2 per week.</p>
+                      <button type="button" class="checkBtn btn btn-primary" id = "donateBtn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Donate Now!
+                      </button>
+                  </div>
+                </div>
+                <div class="col col-12 col-sm-12 col-md-6 col-lg-6 mb-5">
+                  <div class="checkdonate">
+                    <h2 id="checkDonation-text">Check Donations</h2>
+                    <p>CharitAble is committed to transparency and ensuring that every penny donated is used for its intended purpose.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1svulo5PTfOaZVXLHyk-S2E6NTrWYK8R_6QH8ogxXXZg/edit?resourcekey#gid=1283864019" target="_blank" class="checkBtn btn btn-secondary" id="checkDonationBtn">Check Donations</a>
+                </div>
+    
+                </div>
+            </div>
+        </div>
+
+        <!--  -->
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-10" id="exampleModalLabel">Introducing Monthly model!
+                  <img src="assets/celebrate.png" alt="" id="celebrate-icon">
+                </h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <div class="container rupee8container mb-5">
+                  <h3>Donate Rupees 8(for a month)</h3>
+                  <p>Your donation will be divided in <strong>4 parts</strong>  respectively for each week. <br>Note: Option available only in the first week of every month.
+                  </p>
+                  <button type="button" class="checkBtn btn"  data-bs-toggle="modal" data-bs-target="#thankYouModal" onclick="window.open('https://forms.gle/Rg8sJzXPXf5JcPxy9', '_blank')">Donate Monthly!</button>
+                  <!-- <button type="button" class="checkBtn btn" onclick="rupee8Alert()">Donate Monthly!</button> -->
+                  <p class="correctBoxCss">...</p>
+                </div>
+                <div class="container rupee2container">
+                  <h3>Donate Rupees 2(every week)</h3>
+                  <p>This is the regular model where you'll need to donate every week as usual.</p>
+                  <button type="button" class="checkBtn btn"  data-bs-toggle="modal" data-bs-target="#thankYouModal" onclick="window.open('https://forms.gle/RuTysYVaxce5t1Pj7', '_blank')">Donate Weekly!</button>
+                  <p class="correctBoxCss">...</p>
+                </div>
+              </div>
+              <!-- <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              </div> -->
+            </div>
+          </div>
+        </div>
+
+        <footer class="mb-0 mt-1 text-center footer-para">
+          <p>Need Any Help? Contact Us at organisation.charitable@gmail.com</p>
+        </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script>
+      function rupee8Alert() {
+        alert("Rs. 8 can be donated only in the first week of the month.\nPlease continue with Rs. 2 donation weekly.")
+      }
+    </script>
+</body>
+</html>
+
+

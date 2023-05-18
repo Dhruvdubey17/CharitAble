@@ -1,0 +1,59 @@
+/* navbar */
+.navbar, .navbar-expand-lg{
+    background-color: #34897f;
+    color: whitesmoke;
+    
+}
+#navbarNav .nav-item a{
+    color: white;
+}
+#navbarNav .nav-item .active{
+    color: rgb(5, 2, 45);
+}
+.logoImg {
+    height: 45px;
+    width: 60px;
+  }
+#content-container{
+    margin: 0px;
+    height: 100%;
+    background-color: #4FD3C4;
+}
+.donation-imgClass {
+    height: 90vh;
+    width: 100%;
+}
+.row{
+    height: 100%;
+}
+.col {
+   
+    height: fit-content;
+}
+#textCol{
+    padding-top: 2%;
+    padding-left: 2%;
+    color: white;
+}
+#imgCol{
+    padding-left: 5%;
+    padding-top: 2%;
+}
+#donateBtn{
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #4FD3C4;
+    color: white;
+    font-weight: 200;
+    font-size: medium;
+    width: 100%;
+}
+#textHeading{
+    font-family: 'PT Sans';
+    font-size: 40px;
+    font-weight: 600;
+}
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+}
